@@ -1,0 +1,395 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "ProyectoFinal",
+    "dateExported": "2024-02-23T17:58:55.715Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "6b914e99-c507-4f87-bd6b-1ff045caf2e3",
+            "name": "categoria",
+            "containerId": "",
+            "created": "2024-02-23T04:58:37.380Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "1751e438-45f4-4c21-a840-c830e5033233",
+            "name": "Productos",
+            "containerId": "",
+            "created": "2024-02-23T04:58:37.381Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "df4ebf96-7bbb-429d-beea-17cced7a5d5b",
+            "name": "User",
+            "containerId": "",
+            "created": "2024-02-23T04:58:37.382Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "fc2468fd-3ddc-42f4-a221-0cf15c1bf13c",
+            "colId": "95934737-35d4-4cdf-b5ad-016fa07245eb",
+            "containerId": "6b914e99-c507-4f87-bd6b-1ff045caf2e3",
+            "name": "ListarCategoria",
+            "url": "categoria/listar",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-23T04:58:37.380Z",
+            "modified": "2024-02-23T05:35:49.291Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0210329c-b3fa-4d3d-b0dc-16f7c6346e89",
+            "colId": "95934737-35d4-4cdf-b5ad-016fa07245eb",
+            "containerId": "6b914e99-c507-4f87-bd6b-1ff045caf2e3",
+            "name": "AgregarCategoria",
+            "url": "categoria/agregar",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-02-23T04:58:37.382Z",
+            "modified": "2024-02-23T13:13:21.694Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "categoria",
+                        "value": "tecnologia"
+                    },
+                    {
+                        "name": "descripcion",
+                        "value": "Los mejores productos"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "95e13de5-dca2-480d-8f95-0ebd8b3cf5f7",
+            "colId": "95934737-35d4-4cdf-b5ad-016fa07245eb",
+            "containerId": "1751e438-45f4-4c21-a840-c830e5033233",
+            "name": "ListarProducto",
+            "url": "producto/listar",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-23T04:58:37.386Z",
+            "modified": "2024-02-23T17:28:17.946Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c80f1dd0-f918-4756-bde4-29d5705fc17c",
+            "colId": "95934737-35d4-4cdf-b5ad-016fa07245eb",
+            "containerId": "6b914e99-c507-4f87-bd6b-1ff045caf2e3",
+            "name": "actulizarCategoria",
+            "url": "Categoria/actualizar/65d89af41a39bbfbf6fe46fa",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-23T04:58:37.383Z",
+            "modified": "2024-02-23T13:18:21.491Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "descripcion",
+                        "value": "Las peores electrodomesticos del mundo"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "9a37ebfb-2f61-404c-9ea9-858bd9b0a12a",
+            "colId": "95934737-35d4-4cdf-b5ad-016fa07245eb",
+            "containerId": "6b914e99-c507-4f87-bd6b-1ff045caf2e3",
+            "name": "EliminarCategoria",
+            "url": "categoria/Eliminar/65d89af41a39bbfbf6fe46fa",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-23T04:58:37.384Z",
+            "modified": "2024-02-23T13:19:08.302Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "aadd22c3-6441-4f8b-a87b-dd698a34ac35",
+            "colId": "95934737-35d4-4cdf-b5ad-016fa07245eb",
+            "containerId": "1751e438-45f4-4c21-a840-c830e5033233",
+            "name": "ListarPorCategoria",
+            "url": "categoria/listar",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-02-23T04:58:37.387Z",
+            "modified": "2024-02-23T17:25:36.759Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "id",
+                        "value": "65d844670e60ae6b566e3afd"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "ea5eaeeb-d381-4179-aa77-1d6b2c7c0742",
+            "colId": "95934737-35d4-4cdf-b5ad-016fa07245eb",
+            "containerId": "1751e438-45f4-4c21-a840-c830e5033233",
+            "name": "listarPorNombre",
+            "url": "producto/listarPorNombre",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2024-02-23T04:58:37.388Z",
+            "modified": "2024-02-23T13:35:49.279Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nombreProducto",
+                        "value": "Refrigerador"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "2a6aa722-82d1-4f62-a3e6-966d0d637b36",
+            "colId": "95934737-35d4-4cdf-b5ad-016fa07245eb",
+            "containerId": "1751e438-45f4-4c21-a840-c830e5033233",
+            "name": "AgregarProducto",
+            "url": "producto/agregar",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2024-02-23T04:58:37.385Z",
+            "modified": "2024-02-23T17:29:40.694Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nombreProducto",
+                        "value": "microondas"
+                    },
+                    {
+                        "name": "descripcionProducto",
+                        "value": "Calienta todo lo que quieras"
+                    },
+                    {
+                        "name": "precio",
+                        "value": "900"
+                    },
+                    {
+                        "name": "stock",
+                        "value": "25"
+                    },
+                    {
+                        "name": "categoria",
+                        "value": "65d844670e60ae6b566e3afd"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "6506b88e-b8b1-496e-a2c1-c39f68647e45",
+            "colId": "95934737-35d4-4cdf-b5ad-016fa07245eb",
+            "containerId": "1751e438-45f4-4c21-a840-c830e5033233",
+            "name": "EliminarProducto",
+            "url": "producto/eliminar/65d89bfa1a39bbfbf6fe4701",
+            "method": "DELETE",
+            "sortNum": 120000,
+            "created": "2024-02-23T04:58:37.390Z",
+            "modified": "2024-02-23T13:33:18.170Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0e52eb18-c85b-4bab-aa02-5221fee5aa7b",
+            "colId": "95934737-35d4-4cdf-b5ad-016fa07245eb",
+            "containerId": "df4ebf96-7bbb-429d-beea-17cced7a5d5b",
+            "name": "Registrar",
+            "url": "regitrarse",
+            "method": "POST",
+            "sortNum": 130000,
+            "created": "2024-02-23T04:58:37.391Z",
+            "modified": "2024-02-23T05:56:05.710Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nombre",
+                        "value": "javier"
+                    },
+                    {
+                        "name": "apellido",
+                        "value": "vega"
+                    },
+                    {
+                        "name": "usuario",
+                        "value": "jvega"
+                    },
+                    {
+                        "name": "contraseña",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "telefono",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "ba29d2c7-908e-4291-8558-ff0071abd8f6",
+            "colId": "95934737-35d4-4cdf-b5ad-016fa07245eb",
+            "containerId": "df4ebf96-7bbb-429d-beea-17cced7a5d5b",
+            "name": "login",
+            "url": "login?usuario=jperez&contraseña=12345678",
+            "method": "POST",
+            "sortNum": 140000,
+            "created": "2024-02-23T04:58:37.392Z",
+            "modified": "2024-02-23T04:58:37.392Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "usuario",
+                    "value": "jperez",
+                    "isPath": false
+                },
+                {
+                    "name": "contraseña",
+                    "value": "12345678",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "usuario",
+                        "value": "jperez"
+                    },
+                    {
+                        "name": "contraseña",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "3ef73f42-478b-4400-890b-68869e8e5ab8",
+            "colId": "95934737-35d4-4cdf-b5ad-016fa07245eb",
+            "containerId": "df4ebf96-7bbb-429d-beea-17cced7a5d5b",
+            "name": "actualizar",
+            "url": "actualizarCuenta/65d57511867144529e829757?nombre=dario",
+            "method": "PUT",
+            "sortNum": 150000,
+            "created": "2024-02-23T04:58:37.393Z",
+            "modified": "2024-02-23T04:58:37.393Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "nombre",
+                    "value": "dario",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nombre",
+                        "value": "dario"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "ad2bcf6e-f52e-4ffa-ad0e-245f96682b53",
+            "colId": "95934737-35d4-4cdf-b5ad-016fa07245eb",
+            "containerId": "df4ebf96-7bbb-429d-beea-17cced7a5d5b",
+            "name": "eliminar",
+            "url": "eliminarCuenta/65d57511867144529e829757",
+            "method": "DELETE",
+            "sortNum": 160000,
+            "created": "2024-02-23T04:58:37.394Z",
+            "modified": "2024-02-23T04:58:37.394Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f2ad989e-afa9-4115-9397-6a5228405f3f",
+            "colId": "95934737-35d4-4cdf-b5ad-016fa07245eb",
+            "containerId": "1751e438-45f4-4c21-a840-c830e5033233",
+            "name": "actualizarProducto",
+            "url": "producto/actualizar/65d89bfa1a39bbfbf6fe4701",
+            "method": "PUT",
+            "sortNum": 170000,
+            "created": "2024-02-23T08:30:03.394Z",
+            "modified": "2024-02-23T13:25:51.893Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nombreProducto",
+                        "value": "estufa"
+                    },
+                    {
+                        "name": "descripcionProducto",
+                        "value": "Es una esufa que cumple con todo"
+                    },
+                    {
+                        "name": "precio",
+                        "value": "6000"
+                    },
+                    {
+                        "name": "stock",
+                        "value": "5"
+                    },
+                    {
+                        "name": "categoria",
+                        "value": "65d844670e60ae6b566e3afd"
+                    }
+                ]
+            },
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "http://localhost:2656/"
+        }
+    }
+}
